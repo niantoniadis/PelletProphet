@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pellet
+  - Wall
+  - PelletPickup
+  - EnemyPellet
+  - RoomManager
+  - Enemy
+  - HeavyPellet
+  - Room
+  - Boss
+  - UIManager
+  - FireRate
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Pellet
+  - Player
+  - Wall
+  - Enemy
+  - EnemyPellet
+  - PelletPickUp
+  - BG
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

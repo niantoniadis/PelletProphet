@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7477429798372283473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7477429798372283474}
+  - component: {fileID: 7477429798372283475}
+  m_Layer: 0
+  m_Name: RoomManager
+  m_TagString: RoomManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7477429798372283474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7477429798372283473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04899174, y: -38.90955, z: 2.0448284}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7477429798372283475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7477429798372283473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9013e53ecdbbc434094f698b98ab2a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  practiceRooms: 0
+  enemyPrefabs:
+  - {fileID: 6252356885033975587, guid: 5065d7cbdff7f1f4f98d72eb74ba8a03, type: 3}
+  - {fileID: 656507775929439845, guid: 6f465fb6aeeae9a42a1d2f9b60be4783, type: 3}
+  - {fileID: 501412663382024386, guid: ad90c67a1bac2334d91423222e3071c3, type: 3}
+  - {fileID: 3957500090424121025, guid: af60324026f925f4eaafb134ebcde44c, type: 3}
+  - {fileID: 4874772247124413503, guid: 2a87b27fce2638b4292e1538709cb639, type: 3}
+  pelletPickupPrefab: {fileID: 6850819690820067832, guid: 7eb3444a0fd46a441aa7a2951505766c,
+    type: 3}
+  roomPrefab:
+  - {fileID: 4222334078364246742, guid: 2524493fc74d0fc4ba89f84f0aa8b4f2, type: 3}
+  - {fileID: 2926177309032344085, guid: 2d9561664c167104ba092477f6f6c96a, type: 3}
+  - {fileID: 8110350918443101865, guid: aefd0e681c187e44d8d35d6dfdc0d5d8, type: 3}
+  - {fileID: 7607015917289002436, guid: 61688170a6538d94390d8a7599c16328, type: 3}
+  - {fileID: 2926177309032344085, guid: 041ca4a93f6dbca479c087f7ed23130b, type: 3}
+  startTier: 0
